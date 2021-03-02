@@ -1,20 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import HelloMessage from './hello-message';
-import Timer from './timer'
 
-class Index extends React.Component {
-  render() {
-    return (
-      <div>
-        <HelloMessage name="fireflower0" />
-        <Timer />
-      </div>
-    );
-  }
-}
+const App = () => {
+  return (
+    <div>
+      Hello, world!
+    </div>
+  );
+};
 
 ReactDOM.render(
-  <Index />,
+  <App />,
   document.getElementById('root')
 );
