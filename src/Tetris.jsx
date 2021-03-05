@@ -109,7 +109,12 @@ const Tetris = () => {
       if (e.code === 'Space') {
         console.log('Space key');
         genBlock(1);
+      } else if (e.code === 'ArrowRight') {
+        console.log('Right key');
+      } else if (e.code === 'ArrowLeft') {
+        console.log('Left key');
       }
+      draw();
     }
   };
 
