@@ -10,7 +10,7 @@ const TetrisField = styled.table`
 `;
 
 const TetrisCell = styled.td`
-  background-color: gray;
+  background-color: #90A4AE;
   width: 10%;
   height: 5%;
 `;
@@ -50,9 +50,9 @@ const Tetris = () => {
     tbody.childNodes.forEach((elmTr, i) => {
       elmTr.childNodes.forEach((elmTd, j) => {
         if (fieldArr[i][j] === 1) {
-          elmTd.style.backgroundColor = 'red';
+          elmTd.style.backgroundColor = '#EF6C00';
         } else {
-          elmTd.style.backgroundColor = 'gray';
+          elmTd.style.backgroundColor = '#90A4AE';
         }
       });
     });
