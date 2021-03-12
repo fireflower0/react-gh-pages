@@ -15,8 +15,8 @@ const Navbar = () => {
     label: 'Home'
   }, {
     id: 2,
-    path: '/tetris',
-    label: 'Tetris'
+    path: '/about',
+    label: 'About'
   }];
 
   const makeNavContent = (content) => (

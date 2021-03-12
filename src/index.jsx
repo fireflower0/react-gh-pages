@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Navbar from './Navbar';
 import Home from './Home';
-import Tetris from './Tetris';
+import About from './About';
 
 const App = () => {
   return (
@@ -12,7 +12,7 @@ const App = () => {
         <Navbar />
         <hr />
         <Route exact path='/' component={Home} />
-        <Route path='/tetris' component={Tetris} />
+        <Route path='/about' component={About} />
       </Router>
     </div>
   );
